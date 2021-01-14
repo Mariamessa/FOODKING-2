@@ -18,7 +18,9 @@ use Illuminate\Support\Facades\Route;
 // })->name("home");
 
 Route::get('/dashboard','dashboardController@index');
-
+// Route::get('/kitchen','KitchenController@index');
+Route::resource('kitchens', 'KitchenController');
+Route::resource('restaurants', 'RestaurantController');
 // Route::view("url","view page",data)
 // data=["key"=>"value"]
 

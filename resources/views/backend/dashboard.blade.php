@@ -15,6 +15,9 @@
                     @endif
 
                     {{ __('You are logged in!') }}
+                    <br>
+                    <a href="kitchens">Kitchens</a>
+                    <a href="restaurants">Restaurants</a>
                 </div>
             </div>
         </div>
