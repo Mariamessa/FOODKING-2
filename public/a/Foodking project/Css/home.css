@@ -1,0 +1,502 @@
+/* Start our framework */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    /* height: 3000px; */
+}
+/* dropdown menu */
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+/* #navbar{ */
+    /* position:fixed; */
+    /* float: right; */
+    /* width: 100px; */
+    /* top:0; */
+ /* background-color:wheat ;
+} */
+/* .fixednav
+      {
+          position:fixed;
+          top:0;
+       
+      } */
+.container {
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+
+.txtCenter {
+    text-align: center;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.capital {
+    text-transform: capitalize;
+}
+
+.clearFix {
+    clear: both;
+}
+
+.mainColor {
+    color: #74b9ff;
+}
+
+.backgroundColor {
+    background-color: #74b9ff;
+}
+
+.txtColor {
+    color: #fff;
+}
+
+.secondColor {
+    color: #E2E2E2;
+}
+
+.LogoFont {
+    font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.sloganFont {
+    font-size: 22px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.overlay {
+    background: rgba(49, 55, 61, 0.788);
+    width: 100%;
+    height: 100%;
+}
+
+.separator {
+    border: 1px solid #74b9ff;
+    display: block;
+    margin: 20px 70px;
+}
+
+.btn {
+    background: transparent;
+    padding: 10px 0;
+    width: 180px;
+    font-size: 14px;
+    border: 1px solid #969696;
+    margin: 0 8px;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: #74b9ff;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    border: 1px solid #74b9ff;
+}
+
+.cover {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.hidden {
+    display: none;
+}
+
+ ::-webkit-input-placeholder {
+    font-size: 14px
+}
+
+ :-moz-input-placeholder {
+    font-size: 14px
+}
+
+ :-ms-input-placeholder {
+    font-size: 14px
+}
+
+
+/* End our framework *
+
+/* Start Header  */
+
+.header {
+    background: url("../Images/header.jpg");
+}
+
+.header .navbar {
+    overflow: hidden;
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.header .navbar .btn {
+    float: right;
+    width: 100px;
+}
+
+.header .navbar .links {
+    float: right;
+    margin: 9px;
+}
+
+.header .navbar .btn:hover {
+    color: #74b9ff;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    cursor: pointer;
+    color: #fff;
+}
+
+.header .navbar .links i {
+    margin-left: 5px;
+}
+
+
+/* Clear floats */
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.header .intro h1 {
+    /* margin: 0; */
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.header .intro p {
+    margin: 10px 0px 35px;
+    line-height: 1.9;
+    font-size: 20px;
+}
+
+.header .arrow {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 120%;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.header .arrow i:hover {
+    background-color: #74b9ff;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+
+.header .arrow i {
+    border: 2px solid #7B7B7B;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    line-height: 43px;
+    cursor: pointer;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body {
+    background: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header .search {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.header .searchTerm {
+    width: 100%;
+    border: 2px solid #969696;
+    border-right: none;
+    padding: 5px;
+    height: 48px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #fff;
+    background: transparent;
+}
+
+.searchTerm:focus {
+    color: #fff;
+}
+
+.searchButton {
+    width: 50px;
+    height: 48px;
+    border: 2px solid #969696;
+    background: transparent;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    border-left: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.searchButton:hover {
+    background-color: #74b9ff;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+
+
+/*Resize the wrap to see the search bar change!*/
+
+.wrap {
+    width: 50%;
+    position: absolute;
+    top: 118%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* End Header *
+
+
+/* Start Section */
+
+/* .section {
+    height: 1500px;
+} */
+
+.section .features {
+    padding: 20px 0;
+}
+
+.section .row>div {
+    margin-bottom: 25px!important;
+}
+
+.section .item {
+    position: relative;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+
+.section .item .over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #74baffc2;
+    color: #FFF;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    display: none;
+}
+
+.section .item:hover .over {
+    display: block;
+}
+
+.section .item .btn {
+    background-color: #08131d;
+    font-size: 16px;
+}
+
+.section .item .btn:hover {
+    background-color: #FFF;
+    color: #08131d;
+}
+
+.section h1 {
+    padding: 20px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    width: 18%;
+    text-align: left;
+}
+
+.section .img {
+    width: 100%;
+    height: 325px;
+}
+
+.section h3 {
+    margin: 130px 0px 25px 0px;
+    color: #08131d;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.special-heading {
+    position: relative
+}
+
+.special-heading:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 64px;
+    left: 15px;
+    width: 126px;
+    border-bottom: 2px solid #000;
+}
+
+
+/* End features */
+
+.popular .special-heading:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 64px;
+    left: 15px;
+    width: 168px;
+    border-bottom: 2px solid #000;
+}
+
+
+/* Start popular */
+
+.section .popular {
+    padding: 20px 0;
+}
+
+
+/* End popular */
+
+
+/* Start rest */
+
+.section .rest img {
+    width: 200px;
+    height: 200px;
+}
+
+.section .rest h1 {
+    display: inline;
+}
+
+.rest .special-heading:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 64px;
+    left: 15px;
+    width: 227px;
+    border-bottom: 2px solid #000;
+}
+
+.rest .restaurant {
+    margin: 50px 100px 0 100px;
+}
+
+
+/* End rest */
+
+
+/* End Section */
+
+
+/*start footer*/
+
+.footer {
+    background-color: #08131d;
+    color: #FFF;
+    overflow: hidden;
+    padding: 15px 0;
+}
+
+.footer .copyright {
+    float: left;
+}
+
+.footer .content {
+    width: 80%;
+    float: left;
+}
+
+.footer .icons .fa-facebook {
+    background-color: #3b5998;
+}
+
+.footer .icons .fa-twitter {
+    background-color: #55acee;
+}
+
+.footer .icons .fa-google-plus {
+    background-color: #dc4e41;
+}
+
+.footer .icons i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #FFF;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+
+/* End Footer */
+
+
+/* End Footer */
